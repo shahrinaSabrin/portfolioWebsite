@@ -1,0 +1,137 @@
+body {
+    max-width: 1200px;
+    margin: 0% auto;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Helvetica;
+    padding: 0px 10px;
+
+}
+
+div {
+    padding: 0px 20px;
+}
+
+.nav {
+    /* background-color: #C8D1F7; */
+    background-color: #D3D3D3;
+    font-weight: 400%;
+    /* color: black; */
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    /* position: fixed; */
+
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+li {
+    color: blue;
+}
+
+.banner-container {
+    padding-top: 20px;
+    display: flex;
+}
+
+#banner-title {
+    letter-spacing: -.01em;
+    line-height: 1.31818182em;
+    font-size: 200%;
+}
+
+p {
+    font-size: 15px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.banner-heading {
+    padding: 20px 20px;
+    width: 50%;
+}
+
+.banner-image {
+    padding: 50px;
+    width: 50%;
+}
+
+.main-container {
+    padding: 40px 30px;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.e-commerce,
+.paymentApp,
+.webApp {
+    box-sizing: border-box;
+    border-radius: 2%;
+    border: 1px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.btn {
+    /* width: 100%; */
+    position: relative;
+    left: 40%;
+    background-color: blue;
+    color: white;
+}
+
+.review-container {
+    padding: 20px 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-one,
+.review-two {
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px;
+    border-color: #8C92AC;
+    display: flex;
+
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.social-icons {
+    float: right;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+.footer-bottom {
+    padding-top: 10px;
+    background-color: #D3D3D3;
+}
